@@ -3,5 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body {
+    font-family: 'Raleway', sans-serif;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+@import "mixins";
 @import "head";
+@import "slider";
+@import "wins";
+@import "modal";
+@import "buttons";
+@import "media";

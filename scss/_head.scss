@@ -1,3 +1,102 @@
-.head {
+header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    padding-bottom: 19px;
+    .logo {
+        img {
+            width: 237px;
+            height: 70px;
+        }
+        .logo-text {
+            font-size: 10px;
+            line-height: 12px;
+            text-align: center;
+        }
+    }
+    .adress {
+        display: flex;
+        font-size: 19px;
+        line-height: 22px;
+        color: #A8ADBE;
+    }
+    .time {
+        display: flex;
+        font-size: 19px;
+        line-height: 22px;
+        color: #A8ADBE;
+        span {
+            font-weight: 700;
+        }
+    }
+    .soc {
+        
+        display: flex;
+        flex-wrap: wrap;
+        
+        a {
+            display: block;
+            margin-bottom: 3px;
+            flex-basis: 45%;
+            color: #06C8FD;
+            font-size: 19px;
+            text-decoration: none;
+            &:hover {
+                color: #000;
+            }
+        }
+    }
+    .phone {
+        &-text {
+            font-weight: bold;
+            font-size: 19px;
+            line-height: 22px;
+            color: #000000;
+            margin-bottom: 7px;
+            text-align: center;
+            a {
+                color: #000000;
+                text-decoration: none;
+                &:hover {
+                    color: grey;
+                }
+            }
+        }
+        &-button {
+            background: #FFFFFF;
+            border: 1px solid #8FD1E9;
+            padding: 14px 40px;
+            box-shadow: 0px 9px 16px rgba(0, 171, 225, 0.08);
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 19px;
+            text-transform: uppercase;
+            color: $main-color;
+            cursor: pointer;
+            &:hover {
+                background: $btn-color;
+                color: #fff;
+            
+            }
+        }
+    }
+}
+.menu {
+    display: flex;
+    list-style-type: none;
+    margin-bottom: -48px;
+    margin-top: 18px;
+    z-index: 2;
+    position: relative;
+    li {
+        margin-right: 40px;
+        a {
+            color: #000;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
 }

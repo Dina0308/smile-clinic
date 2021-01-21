@@ -7,6 +7,7 @@
     
     <link rel="stylesheet" href="css/fonts.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/tiny-slider.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -14,7 +15,7 @@
         <div class="container">
             <header>
                 <div class="logo">
-                    <img src="img/logo.png" alt="logo">
+                    <a href="#" class="logo"><img src="img/logo.png" alt="logo"></a>
                     <p class="logo-text">Эстетическая стоматология в Обнинске</p>
                 </div>
                 <div class="adress">
@@ -30,21 +31,21 @@
                     </p>
                 </div>
                 <div class="soc">
-                    <span class="icon-vk"></span>
-                    <span class="icon-whatsapp"></span> <br>
-                    <span class="icon-instagram"></span>
-                    <span class="icon-facebook2"></span>
+                    <a href="#"><span class="icon-vk"></span></a>
+                    <a href="#"><span class="icon-whatsapp"></span></a> <br>
+                    <a href="#"><span class="icon-instagram"></span></a>
+                    <a href="#"><span class="icon-facebook2"></span></a>
                 </div>
                 <div class="phone">
                     <div class="phone-text">
                         <span class="icon-phone"></span>
                         <a href="tel:+79038121199">+7 (903) 812-11-99</a>
                     </div>
-                    <button class="phone-button">Заказать звонок</button>
+                    <button data-modal="consultation" class="phone-button">Заказать звонок</button>
                 </div>
             </header>
             <ul class="menu">
-                <li><a href="#">Главная</a></li>
+                <li><a href="#">Главная </a></li>
                 <li><a href="#">О нас</a></li>
                 <li><a href="#">Услуги</a></li>
                 <li><a href="#">Специалисты</a></li>
@@ -54,5 +55,104 @@
             </ul>
         </div>
     </section>
+    <section class="slider">
+        <div class="my-slider">
+            <div class="slide1">
+                <div class="container">
+                    <h1 class="slide__h"><span>Инновационная</span> клиника</h1>
+                    <p class="slide__subtitle">эстетической <span>стоматологии <br> и имплантации</span>в Обнинске</p>
+                    <p class="slogan">Достаточно улыбки, <br> чтобы все стало возможным</p>
+                    <div class="map"><a href="#" class="map-text">Схема проезда</a></div>
+                </div>
+        </div>
+            <div class="slide2">
+                <div class="container">
+                    <h2 class="slide__h">Вернем вашей улыбке <br> <span>здоровый вид</span></h2>
+                    <p class="slide__subtitle">безболезненно, <span>после 3 посещений</span></p>
+                    <p class="slogan">Достаточно улыбки, <br> чтобы все стало возможным</p>
+                    <div class="map"><a href="#" class="map-text">Схема проезда</a></div>
+                </div>
+        </div>
+            <div class="slide3">
+                <div class="container">
+                    <h2 class="slide__h">Стоматология "Лайк Смайл"</h2>
+                    <p class="slide__subtitle">новые <span>цифровые технологии,</span> высокая <br> точность работ и залог качества</p>
+                    <p class="slogan">Достаточно улыбки, <br> чтобы все стало возможным</p>
+                    <div class="map"><a href="#" class="map-text">Схема проезда</a></div>
+                </div>
+            </div>
+            <div class="slide4">
+                <div class="container">
+                    <h2 class="slide__h"> Безболезненно установим импланты <span>с гаранией</span></h2>
+                    <p class="slogan">Достаточно улыбки, <br> чтобы все стало возможным</p>
+                    <div class="map"><a href="#" class="map-text">Схема проезда</a></div>
+                </div>
+            </div>
+            <div class="slide5">
+                <div class="container">
+                    <h2 class="slide__h">Мы рады видеть Вас в нашей <br> <span>клинике "Like smile"</span></h2>
+                    <p class="slide__subtitle">Приходя к нам, вы окунетесь в атмосферу <br> комфорта, <span>почувствуете заботу <br> и чуткость</span> нашего персонала</p>
+                    <p class="slogan">Достаточно улыбки, <br> чтобы все стало возможным</p>
+                    <div class="map"><a href="#" class="map-text">Схема проезда</a></div>
+                </div>
+            </div>
+          </div>
+          <button class="prev"><img src="img/prev.png" alt="prev"></button>
+          <button class="next"><img src="img/next.png" alt="next"></button>
+    
+    </section>
+    <section class="wins">
+        <div class="container">
+            <div class="icons__wrapper">
+                <div class="icons__item">
+                    <img src="img/icon_1.png" alt="wins">
+                    <p class="icons__text"><span>Высочайшее качество</span> <br> по умеренным ценам</p>
+                </div>
+                <div class="icons__item">
+                    <img src="img/icon_2.png" alt="wins">
+                    <p class="icons__text"><span>Широкий спектр услуг</span> <br> от профилактики до лечения</p>
+                </div>
+                <div class="icons__item">
+                    <img src="img/icon_3.png" alt="wins">
+                    <p class="icons__text"><span>Визуализация плана</span> <br> лечения без слепков после 1 посещения</p>
+                </div>
+                <div class="icons__item">
+                    <img src="img/icon_4.png" alt="wins">
+                    <p class="icons__text"><span>Новые</span> <br> цифровые технологии</p>
+                </div>
+                <div class="icons__item">
+                    <img src="img/icon_5.png" alt="wins">
+                    <p class="icons__text"><span>Комплексное</span> <br> протезирование и имплантация</p>
+                </div>
+                <div class="icons__item">
+                    <img src="img/icon_6.png" alt="wins">
+                    <p class="icons__text"><span>Команда</span> <br> опытных специалистов</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<div class="overlay">
+    <div class="modal">
+        <div class="modal__frame">
+            <div class="modal__close"> &times;</div>
+            <p class="modal__title">
+                Оставьте свои контакты
+            </p>
+            <p class="modal__subtitle">И наш специалист с Вами свяжется</p>
+            <form action="#" class="modal__form">
+                <div class="modal__form-inputs">
+                    <input name="name" type="text" placeholder="Имя">
+                <input name="phone" type="numder" placeholder="Телефон"> <br>
+                </div>
+                <button  type="submit" class="button__modal">заказать звонок</button>
+            </form>
+        </div>
+    </div>
+</div>
+        <script src="js/jquery-1.11.0.min.js"></script>
+        <script src="js/jquery-migrate-1.2.1.min.js"></script>
+      <script src="js/tiny-slider.js"></script>
+      <script src="js/script.js"></script>
 </body>
 </html>
