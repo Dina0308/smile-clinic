@@ -1,0 +1,87 @@
+@media screen and (max-width: 525px) {
+    header {
+        display: none;
+    }
+    .slide1, .slide2, .slide3, .slide4, .slide5 {
+        background-position: center;
+        background-size: cover;
+        min-height: 887px;
+        .slide__h {
+            font-size: 41px;
+            margin-top: 173px;
+            span {
+                font-size: 41px;
+            }
+        }
+        .slide__subtitle {
+            font-size: 20px;
+            color: #000824;
+            margin-top: 11px;
+            
+        }
+        .nav__mob {
+            display: block;
+        }
+    }
+    .slide1 {
+        background-image: url(../img/bg_mob1.png);
+             
+    }
+    .slide2 {
+        background-image: url(../img/bg_mob2.png);
+    }
+    .slide3 {
+        background-image: url(../img/bg_mob3.png);
+    }
+    .slide4 {
+        background-image: url(../img/bg_mob4.png);
+        .soc__mob {
+            align-items: flex-end;
+        }
+    }
+    .slide5 {
+        background-image: url(../img/bg_mob5.png);
+        .slide__subtitle {
+            display: none;
+        }
+    }
+    .menu {
+        flex-direction: column;
+        display: none;
+    }
+    .logo__mob {
+        display: block;
+        width: 170px;
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+        margin: 13px;
+        position: absolute;
+        z-index: 1;
+        img {
+            width: 100%;
+        }
+    }
+    .hamburger {
+        display: flex;
+    }
+    .contacts__mob {
+        display: flex;
+    }
+    .map {
+        display: none;
+    }
+    .slogan {
+        display: none;
+    }
+    .prev, .next {
+        display: none;
+    }
+    
+    .soc__mob {
+        display: flex;
+    }
+    .phone__mob {
+        display: block;
+    }
+}

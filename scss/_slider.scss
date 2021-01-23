@@ -1,12 +1,26 @@
 .slider {
     position: relative;
 }
-.slide1 {
-    background-image: url(../img/bg1.png);
+.slide1, .slide2, .slide3, .slide4, .slide5 {
     background-position: center;
     background-size: cover;
     min-height: 600px;
     position: relative;
+    .nav__mob {
+        position: absolute;
+        bottom: 25px;
+        font-weight: 700;
+        font-size: 28px;
+        display: none;
+        color: $akcent-color;
+        span {
+            color: $main-color;
+        }
+    }
+}
+.slide1 {
+    background-image: url(../img/bg1.png);
+    
     .slide__h {
         margin-top: 152px;
     }
@@ -17,13 +31,11 @@
         top: 50%;
         left: 45%;
     }
+    
 }
 .slide2 {
     background-image: url(../img/bg2.png);
-    background-position: center;
-    background-size: cover;
-    min-height: 600px;
-    position: relative;
+    
     .slide__h {
         margin-top: 135px;
         max-width: 657px;
@@ -45,10 +57,7 @@
 }
 .slide3 {
     background-image: url(../img/bg3.png);
-    background-position: center;
-    background-size: cover;
-    min-height: 600px;
-    position: relative;
+    
     .slide__h {
         margin-top: 130px;
         margin-bottom: 24px;
@@ -66,10 +75,7 @@
 }
 .slide4 {
     background-image: url(../img/bg4.png);
-    background-position: center;
-    background-size: cover;
-    min-height: 600px;
-    position: relative;
+    
     .slide__h {
         margin-top: 148px;
         max-width: 768px;
@@ -85,13 +91,13 @@
         
         transform: rotate(-15deg);
     }
+    .nav__mob {
+        right: 54px;
+    }
 }
 .slide5 {
     background-image: url(../img/bg5.png);
-    background-position: center;
-    background-size: cover;
-    min-height: 600px;
-    position: relative;
+    
     .slide__h {
         margin-top: 125px;
         margin-bottom: 37px;
@@ -198,3 +204,53 @@ button.tns-nav-active {
     background-color: #fff;
 }
 
+// mob block 
+.phone__mob {
+    display: none;
+    margin-top: 62px;
+    .phone-button {
+        background: #FFFFFF;
+        border: 1px solid #8FD1E9;
+        padding: 14px 40px;
+        box-shadow: 0px 9px 16px rgba(0, 171, 225, 0.08);
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: $main-color;
+        cursor: pointer;
+        margin-bottom: 21px;
+        &:hover {
+            background: $btn-color;
+            color: #fff;
+        
+        }
+    }
+    .phone-text {
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 22px;
+        color: #000000;
+        margin-bottom: 7px;
+        text-align: left;
+        a {
+            color: #000000;
+            text-decoration: none;
+            &:hover {
+                color: grey;
+            }
+        }
+    }
+}
+.soc__mob {
+    display: none;
+    flex-direction: column;
+    margin-top: 51px;
+    a {
+        color: #fff;
+        font-size: 20px;
+        text-decoration: none;
+        margin-bottom: 27px;
+    }
+}

@@ -15,4 +15,8 @@
     margin: 0 auto;
     color: #FFFFFF;
     cursor: pointer;
+    &:hover {
+        color: $btn-color;
+        background-color: #FFFFFF;
+    }
 }
