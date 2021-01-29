@@ -103,11 +103,11 @@ header {
 .hamburger {
     width: 38px;
     height: 38px;
-    
+    transition: 0.5s all;
     flex-direction: column;
     justify-content: space-around;
     position: absolute;
-    z-index: 1;
+    z-index: 3;
     top: 24px;
     right: 24px;
     display: none;

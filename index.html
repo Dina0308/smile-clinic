@@ -46,13 +46,13 @@
             </header>
             <nav>
                 <ul class="menu">
-                    <li><a href="#">Главная </a></li>
-                    <li><a href="#">О нас</a></li>
-                    <li><a href="#">Услуги</a></li>
-                    <li><a href="#">Специалисты</a></li>
-                    <li><a href="#">Прайс</a></li>
-                    <li><a href="#">Акции</a></li>
-                    <li><a href="#">Лицензии</a></li>
+                    <li class="menu__item"><a href="#">Главная </a></li>
+                    <li class="menu__item"><a href="#">О нас</a></li>
+                    <li class="menu__item"><a href="#">Услуги</a></li>
+                    <li class="menu__item"><a href="#">Специалисты</a></li>
+                    <li class="menu__item"><a href="#">Прайс</a></li>
+                    <li class="menu__item"><a href="#">Акции</a></li>
+                    <li class="menu__item"><a href="#">Лицензии</a></li>
                 </ul>
                 <div class="hamburger">
                     <span></span>
@@ -211,30 +211,189 @@
     <section class="wins">
         <div class="container">
             <div class="icons__wrapper">
-                <div class="icons__item">
+                <div class="icons__item grid1">
                     <img src="img/icon_1.png" alt="wins">
                     <p class="icons__text"><span>Высочайшее качество</span> <br> по умеренным ценам</p>
                 </div>
-                <div class="icons__item">
+                <div class="icons__item grid2">
                     <img src="img/icon_2.png" alt="wins">
                     <p class="icons__text"><span>Широкий спектр услуг</span> <br> от профилактики до лечения</p>
                 </div>
-                <div class="icons__item">
+                <div class="icons__item grid3">
                     <img src="img/icon_3.png" alt="wins">
                     <p class="icons__text"><span>Визуализация плана</span> <br> лечения без слепков после 1 посещения</p>
                 </div>
-                <div class="icons__item">
+                <div class="icons__item grid4">
                     <img src="img/icon_4.png" alt="wins">
                     <p class="icons__text"><span>Новые</span> <br> цифровые технологии</p>
                 </div>
-                <div class="icons__item">
+                <div class="icons__item grid5">
                     <img src="img/icon_5.png" alt="wins">
                     <p class="icons__text"><span>Комплексное</span> <br> протезирование и имплантация</p>
                 </div>
-                <div class="icons__item">
+                <div class="icons__item grid6">
                     <img src="img/icon_6.png" alt="wins">
                     <p class="icons__text"><span>Команда</span> <br> опытных специалистов</p>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <div class="about__content">
+                <h2 class="about__h">
+                    Ваша красивая улыбка <span>- наша главная задача!</span>
+                </h2>
+                <input id="read" class="about__link__mob" type="checkbox">
+                <p class="about__text">
+                    «Like Smile» — решение Ваших стоматологических проблем с применением новейших цифровых технологий. Точность, качество и скорость — основные направления работы клиники.
+                    <br><br>
+                    Уютная обстановка и добродушное отношение — забудьте о страхах и дискомфорте при посещении кабинета врача.
+                    <br><br>
+                    Грамотные специалисты — наши врачи постоянно совершенствуют знания и оттачивают практические навыки — Ваше лечение в надежных руках.
+                    <br><br>
+                    Современное оборудование — точная диагностика и качественное лечение благодаря полной картине обследования...
+                </p>
+                
+                <label for="read" class="about__link__mob"><span class="read">Читать далее</span>  <span class="remove">Скрыть</span></label>
+                <div class="about__wrapper">
+                    <div class="about__que">
+                        <p class="about__text">
+                            Возникли вопросы?
+                            <br>
+                            Мы ответим на них:
+                        </p>
+                        <span class="icon-phone"></span>
+                        <a href="7(903)8121199" class="about__link">8 (903) 812-11-99</a> <br>
+                        <span class="icon-vk"></span>
+                        <a href="vk.me/like_smile_obninsk" class="about__link">vk.me/like_smile_obninsk</a>
+                    </div>
+                    <div class="about__adress">
+                        <p class="about__text">Мы ждем Вас по адресу:</p>
+                        <span class="icon-location"></span>
+                        <a href="#" class="about__link">г. Обнинск, ул.Маркса, д.87</a>
+
+                    </div>
+                </div>
+
+                <div class="about__mob">
+                    <p class="about__mob__text">Возникли вопросы? Мы ответим на них:</p>
+                    <a href="7(903)8121199" class="about__mob__button"><span class="icon-phone"></span> Позвонить </a>
+                    <a href="vk.me/like_smile_obninsk" class="about__mob__button"><span class="icon-vk"></span> Написать </a>
+                    <p class="about__mob__text"><span>Мы ждем Вас по адресу:</span> <br>
+                        <span class="icon-location"></span>
+                        <a href="#" class="about__link">г. Обнинск, ул.Маркса, д.87</a></p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="price">
+        <div class="container">
+            <h2 class="price__h">Решаем любые вопросы <br> <span>от профессиональной гигиены до сложных имплантаций</span></h2>
+
+            <div class="price__tabs">
+                <ul class="tabs__caption">
+                    <li class="active">Общие услуги</li>
+                    <li>Терапевтические услуги</li>
+                    <li>Ортопедические услуги</li>
+                    <li>Хирургические услуги</li>
+                    <li>Имплантация (хирургический этап)</li>
+                  </ul>
+                  
+                  <div class="tabs__content active">
+                    
+                    <div class="price__wrapper">
+                        <div class="price__ul">
+                            <p class="price__title">консультация</p>
+                            <ul class="price__product">
+                                <li>Прием (осмотр, консультация) врача-стоматолога-терапевта первичный<span class="value">500 р</span></li>
+                                <li>Прием (осмотр, консультация) врача-стоматолога-терапевта повторный<span class="value">200 р</span></li>
+                                <li>Прием (осмотр, консультация) врача-стоматолога-ортопеда первичный<span class="value">500 р</span></li>
+                                <li>Прием (осмотр, консультация) врача-стоматолога-ортопеда повторный, контрольный<span class="value">200 р</span></li>
+                                <li>Прием (осмотр, консультация) врача-стоматолога-ортопеда <br> (фото-регистрация, 3D сканирование, DigitalSmileDesign, визуализация плана лечения)<span class="value">1500 р</span></li>
+                                <li>Прием (осмотр, консультация) врача-стоматолога-хирурга первичный<span class="value">500 р</span></li>
+                                <li>Прием (осмотр, консультация) врача-стоматолога-хирурга повторный<span class="value">200 р</span></li>
+                                <li>Прием (осмотр, консультация) врача-стоматолога-хирурга с чтением <br> терной томограммы<span class="value">1000 р</span></li>
+                                <li>Прием (осмотр, консультация) врача-ортодонта первичный<span class="value">800 р</span></li>
+                                <li>Прием (осмотр, консультация) врача-ортодонта повторный<span class="value">200 р</span></li>
+                            </ul>
+                            <p class="price__title">рентгенология</p>
+                            <ul class="price__product">
+                                <li>Прицельная внутриротовая контактная рентгенография<span class="value">350 р</span></li>
+                                <li>Ортопантомография<span class="value">700 р</span></li>
+                                <li>Описание и интерпретация рентгенографическихизображений<span class="value">200 р</span></li>
+                                <li>Описание и интерпретация компьютерных томограмм<span class="value">500 р</span></li>
+                            </ul>
+                        </div>
+                        <div class="price__adv">
+                            <div class="price__adv__item">
+                                <div class="label">01 сентября - 10 сентября</div>
+                                <p class="price__adv__h">отбеливание <br> зубов</p>
+                                <p class="price__adv__text">Уберём камни и налёт аппаратом <br> Air Flow, отполируем эмаль<br>пастами и сделаем<br>фторирование</p>
+                                <button data-modal="consultation" class="price__adv__btn">Купить за 2500 Р</button>
+                            </div>
+                            <div class="price__adv__item">
+                                <div class="label">01 сентября - 10 сентября</div>
+                                <p class="price__adv__h">отбеливание <br> зубов</p>
+                                <p class="price__adv__text">Уберём камни и налёт аппаратом <br> Air Flow, отполируем эмаль<br>пастами и сделаем<br>фторирование</p>
+                                <button data-modal="consultation" class="price__adv__btn">Купить за 2500 Р</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                  </div>
+                  
+                  <div class="tabs__content">
+                    Содержимое второго блока
+                  </div>
+                  <div class="tabs__content">
+                    <div class="price__wrapper">
+                        <div class="price__slider">
+                            <div class="slide1">
+                                <p class="price__title">ортопедия</p>
+                            <ul class="price__product">
+                                <li>Прием (осмотр, консультация) врача-стоматолога-терапевта первичный<span class="value">500 р</span></li>
+                                <li>Прием (осмотр, консультация) врача-стоматолога-терапевта повторный<span class="value">200 р</span></li>
+                                <li>Прием (осмотр, консультация) врача-стоматолога-ортопеда первичный<span class="value">500 р</span></li>
+                                <li>Прием (осмотр, консультация) врача-стоматолога-ортопеда повторный, контрольный<span class="value">200 р</span></li>
+                                <li>Прием (осмотр, консультация) врача-стоматолога-ортопеда <br> (фото-регистрация, 3D сканирование, DigitalSmileDesign, визуализация плана лечения)<span class="value">1500 р</span></li>
+                                <li>Прием (осмотр, консультация) врача-стоматолога-хирурга первичный<span class="value">500 р</span></li>
+                                <li>Прием (осмотр, консультация) врача-стоматолога-хирурга повторный<span class="value">200 р</span></li>
+                                <li>Прием (осмотр, консультация) врача-стоматолога-хирурга с чтением <br> терной томограммы<span class="value">1000 р</span></li>
+                                <li>Прием (осмотр, консультация) врача-ортодонта первичный<span class="value">800 р</span></li>
+                                <li>Прием (осмотр, консультация) врача-ортодонта повторный<span class="value">200 р</span></li>
+                            </ul>
+                            </div>
+                            <div class="slide2"></div>
+                            <div class="slide3"></div>
+                            <div class="slide4"></div>
+                            <button class="prev-price">&lt;</button>
+                            <button class="next-price">&gt;</button>
+                        </div>
+                        <div class="price__adv">
+                            <div class="price__adv__item">
+                                <div class="label">01 сентября - 10 сентября</div>
+                                <p class="price__adv__h">отбеливание <br> зубов</p>
+                                <p class="price__adv__text">Уберём камни и налёт аппаратом <br> Air Flow, отполируем эмаль<br>пастами и сделаем<br>фторирование</p>
+                                <button data-modal="consultation" class="price__adv__btn">Купить за 2500 Р</button>
+                            </div>
+                            <div class="price__adv__item">
+                                <div class="label">01 сентября - 10 сентября</div>
+                                <p class="price__adv__h">отбеливание <br> зубов</p>
+                                <p class="price__adv__text">Уберём камни и налёт аппаратом <br> Air Flow, отполируем эмаль<br>пастами и сделаем<br>фторирование</p>
+                                <button data-modal="consultation" class="price__adv__btn">Купить за 2500 Р</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                  </div>
+                  <div class="tabs__content">
+                    Содержимое четвертого блока
+                  </div>
+                  <div class="tabs__content">
+                    Содержимое пятого блока
+                  </div>
             </div>
         </div>
     </section>
@@ -252,14 +411,14 @@
                     <input name="name" type="text" placeholder="Имя">
                 <input name="phone" type="numder" placeholder="Телефон"> <br>
                 </div>
-                <button  type="submit" class="button__modal">заказать звонок</button>
+                <button type="submit" class="button__modal">заказать звонок</button>
             </form>
         </div>
     </div>
 </div>
         <script src="js/jquery-1.11.0.min.js"></script>
         <script src="js/jquery-migrate-1.2.1.min.js"></script>
-      <script src="js/tiny-slider.js"></script>
-      <script src="js/script.js"></script>
+        <script src="js/tiny-slider.js"></script>
+        <script src="js/script.js"></script>
 </body>
 </html>
